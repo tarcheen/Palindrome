@@ -29,7 +29,11 @@ bool isPalindrome(int number)
 
 int main(void)
 {
-    int number = 33;
+    int number ;
+    
+    std::cout<<"enter number :";
+    std::cin>>number;
+    
     if(isPalindrome(number))
         std::cout<< number << " is Palindrome\n";
     else
