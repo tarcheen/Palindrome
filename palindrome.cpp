@@ -42,6 +42,8 @@ int main()
             std::cout<< "\n" << number << " is Palindrome\n";
         else
             std::cout<< number << " is not Palindrome\n";
+        if(number == 999)
+            break;
     }
 
     
