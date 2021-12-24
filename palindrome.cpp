@@ -23,7 +23,7 @@ int reverse_number(int number)
     return result;
 }
 
-bool isPalindrome(int number)
+inline bool isPalindrome(int number)
 {
     return (reverse_number(number) == number) ? true : false;
 }
@@ -38,7 +38,7 @@ int main()
     {
         std::cout << "Please enter a number: ";
         std::cin >> number;
-        if(isPalindrome(number))
+        if( isPalindrome(number) )
             std::cout<< "\n" << number << " is Palindrome\n";
         else
             std::cout<< number << " is not Palindrome\n";
