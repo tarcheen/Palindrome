@@ -29,7 +29,7 @@ inline bool isPalindrome(int number)
 }
 
 
-int main()
+int main(void)
 {
     std::cout << "This program checks whether a certain number is palindrome....\n";
     int number;
